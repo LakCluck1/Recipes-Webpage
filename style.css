@@ -1,0 +1,150 @@
+/* Entire page  */
+html {
+    background-color: #C0E5F4; 
+}
+body {
+    background-color: #C0E5F4;
+    margin: 0 auto; 
+    width: 960px; 
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/* Header */
+header {
+    height: 150px;
+    padding-top: 20px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+header li:first-child {
+    border-right: 2px solid #379EC3; 
+}
+
+.left {
+    width: 33%;
+    float: left;
+}
+
+.left ul {
+    padding-left: 30px;
+    padding-top: 90px;
+}
+
+.right {
+    width: 33%;
+    float: right;
+}
+
+.right ul {
+    padding-right: 30px;
+    padding-top: 90px;
+}
+
+a {
+    text-decoration: none;
+    color: #379ec3;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+/* Logo area  */
+#logo {
+    width: 34%;
+    float: left;
+    text-align: center;
+}
+
+#logo p{
+    color: #000000; 
+    font-family:'Chelsea Market', cursive;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+#logo img {
+    width: 30%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+/* Content */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+#main {
+    background-image: url("Images/background_image.jpg");
+    height: 512px;
+    width: auto;
+    border-top: 1px solid #379EC3; 
+    border-bottom: 1px solid #379EC3;
+}
+
+#main p {
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    padding-top: 25px;
+    text-align: center;
+}
+
+#email {
+    width: 220px;
+    height: 25px;
+    border: 1px;
+    border-color: #379EC3;
+    padding: 1px;
+    margin-right: 10px;
+}
+
+#submit {
+    height: 25px;
+    border: 1px;
+    border-color: #379EC3;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.box {
+    position: relative;
+    float: left;
+    margin: 15px 0;
+}
+
+.box img{
+    position: relative;
+    z-index: 1;
+    margin-left: 30px;
+    border: 1px solid #379EC3;
+    border-radius: 5px;
+}
+
+.box p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 0px;
+    z-index: 2;
+    font-size: 20px;
+    color: #000000; 
+    font-family: 'Chelsea Market', cursive;
+}
