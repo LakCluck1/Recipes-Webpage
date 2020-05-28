@@ -148,3 +148,8 @@ form {
     color: #000000; 
     font-family: 'Chelsea Market', cursive;
 }
+
+footer {
+    text-align: center;
+    font-size: 16px;
+}
