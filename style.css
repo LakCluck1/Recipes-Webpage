@@ -62,17 +62,19 @@ a {
     text-align: center;
 }
 
-#logo p{
+#logo a{
     color: #000000; 
     font-family:'Chelsea Market', cursive;
     font-size: 30px;
     margin-top: 0px;
+    padding-top: 0px;
 }
 
 #logo img {
-    width: 30%;
+    width: 25%;
     height: auto;
     margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 /* Content */
@@ -150,6 +152,29 @@ form {
 }
 
 footer {
+    margin: 10px;
     text-align: center;
     font-size: 16px;
+}
+
+#about_us {
+    margin: 50px ;
+    padding: 15px;
+    position: relative;
+}
+
+#about_us p {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 20px;
+}
+
+#about_us img {
+    border: 1px solid #379EC3;
+    border-radius: 5px;
+    position: relative;
+    width: 450px;
+    height: auto;  
 }
