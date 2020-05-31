@@ -1,6 +1,6 @@
 /* Entire page  */
 html {
-    background-color: #C0E5F4; 
+    background-color: #C0E5F4;
 }
 body {
     background-color: #C0E5F4;
@@ -178,3 +178,15 @@ footer {
     width: 450px;
     height: auto;  
 }
+
+table {
+    margin: 20px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+td {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
