@@ -1,55 +1,16 @@
-/* Entire website */
-html {
-    background-color: #C0E5F4;
-}
 
-body {
-    background-color: #C0E5F4;
-    margin: 0 auto; 
-    width: 960px; 
-    font-family: 'Karla', sans-serif; 
-}
-
-/* General Styling */
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-h1 {
-    font-family: 'Chelsea Market', cursive;
-    color: #000000;
-    font-size: 30px;
-    margin: 0px
-}
-
-h2 {
-    font-family: 'Walter Turncoat', cursive;
-    color: #379ec3;
-    font-size: 16px;
-    margin: 0px
-}
-
-p {
-    font-family: 'Karla', sans-serif; 
-    font-size: 13px;
-
-}
-
-.box img {
-    border: 1px solid #379EC3;
-    border-radius: 5px;
-    position: relative;
-}
-
-/* Header */
+/* Header
 header {
     height: 150px;
-    padding-top: 15px;
+    padding-top: 20px;
+}
+
+ul {
+    padding: 0;
 }
 
 li {
-    display: inline-block;
+    display: inline;
     padding: 10px;
 }
 
@@ -77,11 +38,26 @@ header li:first-child {
     padding-top: 90px;
 }
 
-/* Logo area  */
+ a {
+    text-decoration: none;
+    color: #379ec3;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+Logo area 
 #logo {
     width: 34%;
     float: left;
     text-align: center;
+}
+
+#logo a{
+    color: #000000; 
+    font-family:'Chelsea Market', cursive;
+    font-size: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
 }
 
 #logo img {
@@ -89,9 +65,9 @@ header li:first-child {
     height: auto;
     margin-bottom: 0px;
     padding-bottom: 0px;
-}
+} */
 
-/* Homepage Content */
+/* Content */
 .cf:before,
 .cf:after {
     content: " "; /* 1 */
@@ -114,6 +90,8 @@ header li:first-child {
     font-weight: bold;
     padding-top: 50px;
     padding-bottom: 0px;
+    font-size: 16px;
+    margin: 0;
     text-align: center;
 }
 
@@ -135,7 +113,7 @@ form {
     height: 25px;
     border: 1px;
     border-color: #379EC3;
- 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .box {
@@ -152,14 +130,15 @@ form {
     border-radius: 5px;
 }
 
-.box h2 {
+.box p {
     position: absolute;
     width: 100%;
     text-align: center;
     top: 0px;
     z-index: 2;
     font-size: 20px;
-    color: #000000;
+    color: #000000; 
+    font-family: 'Chelsea Market', cursive;
 }
 
 footer {
@@ -178,9 +157,9 @@ footer {
     width: 40%;
     float: left;
     margin-right: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
     font-size: 20px;
-    text-align: left;
-} 
+} */
 
 #about_us img {
     border: 1px solid #379EC3;
@@ -196,3 +175,8 @@ table {
     width: 100%;
     text-align: center;
 }
+
+td {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
