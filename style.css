@@ -131,13 +131,6 @@ form {
     margin-right: 10px;
 }
 
-#submit {
-    height: 25px;
-    border: 1px;
-    border-color: #379EC3;
- 
-}
-
 .box {
     position: relative;
     float: left;
@@ -166,33 +159,4 @@ footer {
     margin: 10px;
     text-align: center;
     font-size: 16px;
-}
-
-#about_us {
-    margin: 50px ;
-    padding: 15px;
-    position: relative;
-}
-
-#about_us p {
-    width: 40%;
-    float: left;
-    margin-right: 30px;
-    font-size: 20px;
-    text-align: left;
-} 
-
-#about_us img {
-    border: 1px solid #379EC3;
-    border-radius: 5px;
-    position: relative;
-    width: 450px;
-    height: auto;  
-}
-
-table {
-    margin: 20px;
-    padding: 10px;
-    width: 100%;
-    text-align: center;
 }
